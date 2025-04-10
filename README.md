@@ -1,3 +1,4 @@
+Заполните файл .env
 Запустите приложение:
 docker-compose up --build
 
