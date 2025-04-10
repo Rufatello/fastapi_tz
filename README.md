@@ -1,10 +1,10 @@
-Заполните файл .env
-Запустите приложение:
+# Заполните файл .env
+## Запустите приложение:
 docker-compose up --build
 
-Применить все миграции**:
+### Применить все миграции**:
 docker-compose exec app alembic upgrade head
 
-После запуска приложение будет доступно:
-API: http://localhost:8000
-Документация Swagger: http://localhost:8000/docs
+#### После запуска приложение будет доступно:
+# API: http://localhost:8000
+# Документация Swagger: http://localhost:8000/docs
